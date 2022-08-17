@@ -128,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             GestureDetector(
               onTap: (){
-                ˚.goForward();
+                _controller.goForward();
               },
               child: Row(
                 children: [
