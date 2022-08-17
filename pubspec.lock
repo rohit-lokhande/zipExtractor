@@ -97,6 +97,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_archive:
+    dependency: "direct main"
+    description:
+      name: flutter_archive
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -109,6 +116,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  html_character_entities:
+    dependency: transitive
+    description:
+      name: html_character_entities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+1"
   http:
     dependency: "direct main"
     description:
@@ -207,6 +221,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.0"
   platform:
     dependency: transitive
     description:
@@ -228,6 +249,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.2.4"
+  recursive_regex:
+    dependency: transitive
+    description:
+      name: recursive_regex
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -289,6 +317,34 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.2"
+  webview_flutter:
+    dependency: "direct main"
+    description:
+      name: webview_flutter
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.0.4"
+  webview_flutter_android:
+    dependency: transitive
+    description:
+      name: webview_flutter_android
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.9.3"
+  webview_flutter_platform_interface:
+    dependency: transitive
+    description:
+      name: webview_flutter_platform_interface
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.9.1"
+  webview_flutter_wkwebview:
+    dependency: transitive
+    description:
+      name: webview_flutter_wkwebview
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.9.3"
   win32:
     dependency: transitive
     description:
@@ -303,6 +359,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.0+1"
+  xml:
+    dependency: "direct main"
+    description:
+      name: xml
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "6.1.0"
+  xml_parser:
+    dependency: "direct main"
+    description:
+      name: xml_parser
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0"
 sdks:
   dart: ">=2.17.5 <3.0.0"
   flutter: ">=3.0.0"
